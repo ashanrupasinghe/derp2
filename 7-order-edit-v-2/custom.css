@@ -1,0 +1,225 @@
+@CHARSET "ISO-8859-1";
+/*dinamoc fields*/
+
+/*select 2*/
+.select2-container--default .select2-selection--single{
+		-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	background-color: #FAFAFA;
+	border-radius: 0;
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+	background-position: 100% center;
+	background-repeat: no-repeat;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	color: rgba(0,0,0,0.75);
+	font-family: inherit;
+	font-size: 0.875rem;
+	line-height: normal;
+	padding: 0.5rem;
+	border-radius: 0;
+	height: 2.3125rem;
+	margin: 0 0 1rem 0;
+}
+
+.select2-container--default .select2-selection--single:hover{
+	background-color: #f3f3f3;
+border-color: #999;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 20px;
+}
+
+.select2-selection__arrow{
+	display:none;
+}
+
+.select2-container--default .select2-selection--multiple {
+background-color: #FAFAFA;
+border: 1px solid #aaa;
+border-radius: 0px;
+cursor: text;
+
+-moz-appearance: none;
+border-radius: 0;
+background-color: #fff;
+border-style: solid;
+border-width: 1px;
+border-color: #ccc;
+box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+color: rgba(0,0,0,0.75);
+display: block;
+font-family: inherit;
+font-size: 0.875rem;
+/* height: 2.3125rem; */
+margin: 0 0 1rem 0;
+padding: 0.5rem;
+width: 100%;
+box-sizing: border-box;
+    transition: border-color 0.15s linear,background 0.15s linear;
+
+	
+}
+.select2-container--default .select2-selection--multiple:focus{
+background: #fafafa;
+border-color: #999;
+outline: none;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    background: #fafafa;
+border-color: #999;
+outline: none;
+}
+
+.check-available{
+	display: inline-block;
+margin-top: 20px;
+padding-top: 9px;
+padding-bottom: 9px;
+}
+
+/*button styling*/
+/*x-btn ,x-btn-view,x-btn-edit, x-btn-delete, x-btn-add*/
+/*
+1. #e4eaec,  #ccd5db ,  #76838f 
+2. #62a8ea,  #89bceb ,  #4e97d9 
+3. #46be8a,  #5cd29d ,  #36ab7a 
+4. #57c7d4,  #77d6e1 ,  #47b8c6
+5. #f2a654,  #f4b066 ,  #e79857
+6. #f96868,  #fa7a7a ,  #e9595b 
+   */
+.x-btn{
+padding: 2px 10px;
+line-height: 1.57142857;
+font-weight: 300;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+color: #FFFFFF;
+}
+.x-btn:hover,.x-btn:active,.x-btn:focus{
+color: #FFFFFF;	
+}
+.x-btn-default{
+background-color:#e4eaec;	
+}
+.x-btn-default:hover{
+background-color:#ccd5db;	
+}
+.x-btn-default:active{
+background-color:#76838f;	
+}
+
+.x-btn-primary{
+background-color:#62a8ea;
+}
+.x-btn-primary:hover{
+background-color:#89bceb; 	
+}
+.x-btn-primary:active{
+background-color:#4e97d9; 	
+}
+
+.x-btn-success{
+background-color:#46be8a;	
+}
+.x-btn-success:hover{
+background-color:#5cd29d;	
+}
+.x-btn-success:active{
+background-color:#36ab7a;	
+}
+
+.x-btn-info{
+background-color:#57c7d4;	
+}
+.x-btn-info:hover{
+background-color:#77d6e1;	
+}
+.x-btn-info:active{
+background-color:#47b8c6;	
+}
+
+.x-btn-warning{
+background-color:#f2a654;	
+}
+.x-btn-warning:hover{
+background-color:#f4b066;	
+}
+.x-btn-warning:active{
+background-color:#e79857;	
+}
+
+.x-btn-danger{
+background-color:#f96868;	
+}
+.x-btn-danger:hover{
+background-color:#fa7a7a;	
+}
+.x-btn-danger:active{
+background-color:#e9595b;	
+}
+/*view page styles*/
+.td-100{
+	width:100%;
+}
+.td-90{
+	width:90%;
+}
+.td-80{
+	width:80%;
+}
+.td-70{
+	width:70%;
+}
+.td-60{
+	width:60%;
+}
+.td-50{
+	width:50%;
+}
+.td-40{
+	width:40%;
+}
+.td-30{
+	width:30%;
+}
+.td-20{
+	width:20%;
+}
+.td-10{
+	width:10%;
+}
+
+.div-left-pad-0{
+	padding-left: 0px;
+}
+.div-right-pad-0{
+	padding-right: 0px;
+}
+.div-top-pad-0{
+	padding-top: 0px;
+}
+.div-bottom-pad-0{
+	padding-bottom: 0px;
+}
+.td-align-left{
+	text-align: left !important;
+}
+
+input[type="text"].hiddenclass{display:none;}
+input[type="text"].showclass{display:block;}
+
+.input-group-margin-0{
+	margin-bottom: 0px !important;
+}
+.search-inpuut{
+margin: 0px 5px 0px 5px;
+}
+.x-y-z .prod-left .select2-container {
+    display: none !important;
+}

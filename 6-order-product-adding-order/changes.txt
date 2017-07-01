@@ -1,0 +1,8 @@
+$(this).parent().parent().next().children(".prod-left").siblings().show();
+$(this).parent().parent().prev().children(".prod-left").siblings().show();
+
+cacheEle.append(row);
+cacheEle.prepend(row);
+
+var previusQTY=$("div#x-"+element.value).prev().find("input.product-quantity-x").val();
+var previusQTY=$("div#x-"+element.value).next().find("input.product-quantity-x").val();

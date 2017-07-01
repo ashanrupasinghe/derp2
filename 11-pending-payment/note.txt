@@ -1,0 +1,4 @@
+if delivery person not select a status,
+thes save success,
+but order listing pages show error messages
+because, payment status will empty

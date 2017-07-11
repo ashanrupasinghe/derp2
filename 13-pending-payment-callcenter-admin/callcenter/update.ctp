@@ -393,7 +393,7 @@ $sup_status=[0=>'pending',1=>'available',2=>'not available',9=>'canceled'];
 								<th><?= 'Delivery Date'  ?></th>
 								<th><?= 'Created At'  ?></th>
 								<th><?= 'Delivery staff'  ?></th>
-								<th><?= 'select' ?>
+								<th><?= 'Select' ?>
 								<th><?= 'Actions'  ?></th>
 								
 							</tr>
@@ -413,21 +413,22 @@ $sup_status=[0=>'pending',1=>'available',2=>'not available',9=>'canceled'];
 								<?php echo $this->Form->input('paymentStatus',['label' => false,'class'=>'form-control pending-radio-dropdown', 'id'=>"payment_type_pending".$order->id,'options'=>$payment_status,'empty'=>'select status','default'=>$order->paymentStatus]); ?>								
 								</td>								
 								<td>
-								<input type="button" class="btn btn-success pending-radio-submit" value="send">								
+								<input type="button" class="btn btn-success pending-radio-submit" value="Update">								
 								</td>
 								<?php //echo $this->Html->link(__('View'), ['action' => 'view', $order->delivery_notifications[0]->id],['class'=>'x-btn x-btn-warning btn btn-warning btn-xs']) ?>
 								
 							</tr>
 							<?php  endforeach; ?>
 							<tr>
-						    	<td colspan="5"></dt>
+						    	<td colspan="4"></dt>
+						    	<th>Bulk Select</dh>
 								<td><input type="checkbox" class="pending-radio-all"></td>
 								<td>
 									<?php echo $this->Form->input('paymentStatus',['label' => false,'class'=>'form-control col-sm-1 pending-radio-dropdown','options'=>$payment_status,'empty'=>'select status','default'=>1,'id'=>'pending-radio-dropdown-all']); ?>
 																				
 								</dt>
 								<td>
-								<input type="button" class="btn btn-success" value="send all" id="pending-radio-all-submit">
+								<input type="button" class="btn btn-success" value="Update all" id="pending-radio-all-submit">
 								</td>
 							</tr>
 						</tbody>                    

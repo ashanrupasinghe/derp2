@@ -1,0 +1,94 @@
+cus-id: 1373
+user-id: 1438
+cart-id: 1695
+dilrukshi kulathilaka-address-null-city-null
+
+dindodkulatilaka@gmail.com
+065b4aeeed113251cbee404e9915aa0daeecef7f4079913eab16ffd168d3723d
+
+
+
+
+num of order: 160,
+
+
+
+401,402,
+403-567
+
+===================
+hiranya_gunasekera@yahoo.com
+user_id: 1435
+cus_id: 1370
+cart_id: 1491
+
+orders: 395, 396, 397, 398
+
+
+====
+===============
+User 1441 | sujani.mathtricks@gmail.com | 0b5d062aad8e39f40379bf85a495167177c2587bf17de7b8fa70073cd7eece5a
+CUS  1377 | 1441| 
+
+==
+899 | tridentventuressl@gmail.com
+created 2017-06-14 17:17:33
+no customer table,
+
+======================
+1336, 885, 1319, 1317, 1316, 1265, 905, 902, 900,  899, 898, 897, 895, 894, 893, 892, 890, 887
+
+ 1336, Ramzani.mafaz @gmail.com
+ 885, sudharshan.rms@gmail.com [had a cart]
+
+ 1319, neokaweliks@Gmail.com
+ 1317, Jprashanth@gmail.com  
+ 1316, Jelaniprashanth@gmail.com 
+
+ 1265, ashan.mahtricksgmail.com
+
+ 905, iqbalsab786@gmail.com
+ 902, damayanthi.s.fernando@gmail.com
+ 900,  	zainulf@gmail.com
+
+ 899, tridentventuressl@gmail.com 
+ 898, louchingw@gmail.com
+ 897, arjwigs@gmail.com
+ 895, 	nelads@gmail.com
+ 894, bhasuraa@gmail.com
+ 893, nouffer@gmail.com
+ 892, wchathuraga@hotmail.com
+ 890, pererakusal49@gmail.com
+ 887, aashly83@gmail.com
+
+0117556600
+
+
+===========
+orders that havent orders products
+67,
+
+
+
+order ids: that hvent order products
+
+67,	68,	69,	70,	71,	72, 73, 86, 88, 90, 91, 92, 119, 120, 121, 122,123, 126, 156, 157, 158, 223, 224, 252, 253, 254, 255, 256,
+257, 258, 259, 260, 262, 263, 264, 265, 344, 345, 346, 347, 359, 360, 361, 362, 363, 364, 365, 369, 370, 371, 372, 373, 374, 375,
+376, 377, 378, 395, 396, 397, 398
+
+customers of above orders:
+1260
+1199
+931
+925
+1292
+1338
+1324
+1363
+1370
+
+
+
+------------------
+user havent customer
+29,25,11,22,30,26,34,1423,28,32,33,24,27,23,31

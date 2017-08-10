@@ -285,6 +285,10 @@ class ProductsController extends AppController {
     	$errors=[];//store error data
         if ($this->request->is('post')) {
             if (!empty($this->request->data('productsSheet'))) {
+			
+			$filename = $this->request->data['productsSheet']['name'];
+			$extension = pathinfo($filename, PATHINFO_EXTENSION);
+			if($extension==='csv'){
 
                 $file = $this->request->data('productsSheet.tmp_name');
                 //echo $file;
@@ -505,12 +509,17 @@ class ProductsController extends AppController {
                 
                 }else{
                 	$this->Flash->error(__('No data found in the file'));
-                	return $this->redirect(['action' => 'import',$this->request->data['Post']['errors'], 'var' => $errors]);
+                	return $this->redirect(['action' => 'import']);
                 }
+				
+				}else{
+					 $this->Flash->error(__('Please upload a .CSV file'));
+					 return $this->redirect(['action' => 'import']);
+				}
                 
             } else {
                 $this->Flash->error(__('Please select an EXCEl file'));
-                return $this->redirect(['action' => 'import',$this->request->data['Post']['errors'], 'var' => $errors]);
+                return $this->redirect(['action' => 'import']);
             }
         }
         //http://stackoverflow.com/questions/22590957/how-do-i-best-avoid-inserting-duplicate-records-in-cakephp
